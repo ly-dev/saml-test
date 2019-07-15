@@ -1,0 +1,9 @@
+{
+	"name": "Basicpage",
+	"slug": "basicpage",
+	"namespace": "Basicpage",
+	"version": "1.0",
+	"author": "paul",
+	"license": "MIT",
+	"description": "This is the description for the Basicpage module."
+}

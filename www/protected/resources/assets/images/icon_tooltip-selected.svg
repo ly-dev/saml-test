@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_tooltip-selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="CoinSchedule_Submit-Listing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-901.000000, -700.000000)">
+        <g id="Form" transform="translate(329.000000, 541.000000)">
+            <g id="Form-Part-1" transform="translate(83.000000, 49.000000)">
+                <g id="Field-Copy" transform="translate(378.003906, 110.000000)">
+                    <g id="icon_tooltip-selected" transform="translate(110.492188, 0.000000)">
+                        <circle id="Oval-2" fill="#5C4F7C" cx="13" cy="12.5" r="12.5"></circle>
+                        <text id="?" font-family="FaricyNew-Bold, Faricy New" font-size="19" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="8" y="19">?</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

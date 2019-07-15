@@ -1,0 +1,18 @@
+.app-button-radio {
+    &>input[type="radio"] {
+        position:absolute;
+        opacity: 0;
+        margin: 0;
+        padding: 0;
+        
+        &:checked ~ label {
+            background-color: $selected-grey;
+            border-width: 2px;
+            padding-left: 17px;
+            padding-right: 17px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+        }
+    }
+}
+

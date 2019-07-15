@@ -1,0 +1,22 @@
+.brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    .brand__logo {
+        height: 80px;
+    }
+}
+
+.nav.navbar-nav {
+    .links {
+        padding-top: 37px;
+        padding-bottom: 37px;
+        a {
+            margin-right: 10px;
+            color: #fff;
+        }
+    }
+}

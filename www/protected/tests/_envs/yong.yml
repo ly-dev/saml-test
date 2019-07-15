@@ -1,0 +1,12 @@
+# `yong` environment config goes here
+
+modules:
+    config:
+        REST:
+            url: http://sbyong.global-initiative.com/ricardo
+        WebDriver:
+            url: http://sbyong.global-initiative.com/ricardo
+            host: caerus
+            port: 4444
+            browser: firefox
+            window_size: 1600x900

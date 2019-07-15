@@ -1,0 +1,105 @@
+/* customize bootstrap */
+
+/* rewrite bootstrap variables */
+
+//== Colors
+$brand-primary:             $turquoise !default;
+
+$text-color:                $dark-blue !default;
+
+//== Typography
+$font-family-base:        $font-family-app !default;
+$font-size-base:          14px !default;
+$font-size-h1:            32px !default; //floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            28px !default; //floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            24px !default; //ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            18px !default; //ceil(($font-size-base * 1.25)) !default; // ~18px
+
+$line-height-base:        1.2142857 !default; // 17/14 // 1.428571429 !default; // 20/14
+
+$headings-font-family:    $font-family-app !default;
+$headings-font-weight:    $font-weight-bold !default; // defined in _fonts.scss
+
+//== Components
+
+$navbar-height:                    90px !default; // 50px !default;
+$navbar-margin-bottom:             40px !default; // $line-height-computed !default;
+
+$navbar-inverse-bg:                $dark-blue !default;
+
+$navbar-inverse-link-color:                 #fff !default;
+$navbar-inverse-link-hover-color:           $turquoise !default;
+$navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;
+$navbar-inverse-link-active-bg:             darken($navbar-inverse-bg, 10%) !default;
+
+$border-radius-base:        0px !default; //4px
+$border-radius-large:       0px !default; //6px
+$border-radius-small:       0px !default; //3px
+
+$input-height-base:         60px !default; // 34px;
+$btn-border-radius-base:    25px !default; // $border-radius-base
+$btn-border-radius-large:   35px !default; // $border-radius-large
+
+$btn-font-weight:           $font-weight-bold !default; // defined in _fonts.scss
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.page-header {
+    border-bottom: 1px solid transparent;
+}
+
+.btn {
+    @include transition-ours();
+    font-size: 16px;
+    padding: 14px 18px;
+    
+    &.btn-lg {
+        padding: 24px 18px;
+    }
+
+    &:focus, .btn.focus, &:active:focus {
+        outline-color: transparent;
+    }
+}
+
+.radio label, .checkbox label
+{
+    padding-left: 18px;
+}
+
+.panel {
+    border: 0px solid transparent;
+    margin-bottom: 50px;
+    @include boxshadow();
+    
+    .panel-body {
+        padding: 40px 45px 75px;
+        @media (min-width: $screen-sm-min) {
+            padding: 40px 55px 75px;
+        }
+        @media (min-width: $screen-md-min) {
+            padding: 40px 75px 75px;
+        }
+    }
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.daterangepicker.dropdown-menu {
+    input, input.active, td.start-date, td.end-date {
+        border-radius: 0;
+    }
+}
+
+.modal {
+    .modal-dialog {
+        .modal-content {
+            border: 1px solid transparent;
+            @media (min-width: $screen-sm-min) {
+                box-shadow:  0 0 20px 0 rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}

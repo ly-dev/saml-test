@@ -1,0 +1,1 @@
+<h1 class="app-header-1 {{ $class or ''}}"><span>{{ $label or '' }}</span></h1>

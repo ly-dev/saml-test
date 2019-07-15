@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "type": "laravel",
+    "core": "",
+    "domain": "example.com",
+    "build_script": "protected/run_build.sh",
+    "install_script": "protected/run_install.sh",
+    "update_script": "protected/run_update.sh",
+    "test_script": "protected/run_test.sh",
+    "test_output": "protected/tests/_output",
+    "build_exclude": [
+        "protected/node_modules"
+    ],
+    "modules": [
+    ],
+    "path_mappings": {
+        "/" : "www"
+    }
+}

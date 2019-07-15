@@ -1,0 +1,20 @@
+.app-icon {
+    display: inline-block;
+    width: $app-icon-width;
+    height: $app-icon-height;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    
+    &.tick {
+        background-image: url("../images/icon_tick.svg");
+    }
+
+    &.circle-checked {
+        background-image: url("../images/Radio-Circle-Checked.svg");
+    }
+
+    &.circle {
+        background-image: url("../images/Radio-Circle.svg");
+    }
+}

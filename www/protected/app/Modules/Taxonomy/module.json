@@ -1,0 +1,9 @@
+{
+	"name": "Taxonomy",
+	"slug": "taxonomy",
+	"namespace": "Taxonomy",
+	"version": "1.0",
+	"author": "Yong Li",
+	"license": "MIT",
+	"description": "Taxonomy"
+}

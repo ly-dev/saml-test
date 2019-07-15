@@ -1,0 +1,9 @@
+{
+	"name": "Auth",
+	"slug": "auth",
+	"namespace": "Auth",
+	"version": "1.0",
+	"author": "Yong Li",
+	"license": "MIT",
+	"description": "Auth"
+}

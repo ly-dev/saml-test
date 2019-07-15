@@ -1,0 +1,12 @@
+# `qa` environment config goes here
+
+modules:
+    config:
+        REST:
+            url: http://sandbox/ricardo
+        WebDriver:
+            url: http://sandbox/ricardo
+            host: builder
+            port: 4444
+            browser: firefox
+            window_size: 1600x900

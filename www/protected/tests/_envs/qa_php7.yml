@@ -1,0 +1,12 @@
+# `qa` environment config goes here
+
+modules:
+    config:
+        REST:
+            url: http://sandboxphp7/ricardo
+        WebDriver:
+            url: http://sandboxphp7/ricardo
+            host: builderphp7
+            port: 4444
+            browser: firefox
+            window_size: 1600x900

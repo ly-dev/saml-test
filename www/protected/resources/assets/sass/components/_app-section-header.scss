@@ -1,0 +1,30 @@
+.app-section-header {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+    &:before {
+        border-top: 2px solid #eee;
+        content:"";
+        margin: 0 auto;
+        position: absolute;
+        top: 50%; left: 0; right: 0; bottom: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    span { 
+        /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+        background: #fff; 
+        padding: 0 20px; 
+    }
+}
+
+.col-md-12 {
+    &>.app-section-header {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+}

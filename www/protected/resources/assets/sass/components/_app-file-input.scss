@@ -1,0 +1,46 @@
+.app-file-input {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    
+    .btn {
+        width: 100%;
+        &.change {
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+    }
+    .file-name {
+        font-size: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    input[type=file] {
+        font-size: 36px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        
+        &:hover + .actions {
+            visibility: visible;
+        }
+    }
+
+    .actions {
+        visibility: hidden;
+        display: block;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        
+        a {
+            color: white;
+        }
+    
+        &:hover {
+            visibility: visible;
+        }
+    }
+}    

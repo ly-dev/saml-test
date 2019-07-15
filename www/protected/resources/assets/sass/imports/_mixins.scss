@@ -1,0 +1,106 @@
+/* mixins */
+
+@mixin transform($style) {
+    -moz-transform: $style;
+    -o-transform: $style;
+    -ms-transform: $style;
+    -webkit-transform: $style;
+    transform: $style;
+}
+
+@mixin transform-origin ($style) {
+    moz-transform-origin: $style;
+    -o-transform-origin: $style;
+    -ms-transform-origin: $style;
+    -webkit-transform-origin: $style;
+    transform-origin: $style;
+}
+
+@mixin animation($style) {
+    -webkit-animation: $style;
+    -moz-animation: $style;
+    -o-animation: $style;
+    animation: $style;
+}
+
+@mixin boxshadow($shadow: 0px 0px 20px 0px, $color: rgba(0, 0, 0, 0.09)) {
+    -moz-box-shadow: $shadow $color;
+    -webkit-box-shadow: $shadow $color;
+    box-shadow: $shadow $color;
+}
+
+@mixin transition-ours($style: all 0.5s) {
+    -o-transition: $style;
+    -ms-transition: $style;
+    -moz-transition: $style;
+    -webkit-transition: $style;
+    transition: $style;
+}
+
+@mixin transition-delay($style...) {
+    -o-transition-delay: $style;
+    -moz-transition-delay: $style;
+    -webkit-transition-delay: $style;
+    transition-delay: $style;
+}
+
+@mixin placeholder-styling() {
+    &::-webkit-input-placeholder {
+        @content;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+        @content;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+        @content;
+    }
+    &:-ms-input-placeholder {
+        @content;
+    }
+}
+
+@mixin noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+        @content;
+    }
+    @-moz-keyframes #{$name} {
+        @content;
+    }
+    @-o-keyframes #{$name} {
+        @content;
+    }
+    @keyframes #{$name} {
+        @content;
+    }
+}
+
+@mixin reset-autofill-styling() {
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active {
+        @include transition-delay($one-day);
+        @include transition(color $one-day ease-out, background-color $one-day ease-out);
+    }
+}
+
+@mixin border-bottom-link($color1, $color2) {
+    color: black;
+    font-family: $font-family-app;
+    border-bottom: solid 3px $color1;
+    opacity: 0.3;
+    @include transition-ours(all 0.2s);
+    &:hover, &.active {
+        border-bottom: solid 3px $color2;
+        opacity: 1;
+    }
+}

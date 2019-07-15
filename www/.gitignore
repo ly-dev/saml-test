@@ -1,0 +1,6 @@
+# compiled resource
+/app
+/assets
+
+# vendor
+/vendor

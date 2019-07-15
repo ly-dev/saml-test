@@ -1,0 +1,9 @@
+{
+	"name": "Managedfile",
+	"slug": "managedfile",
+	"namespace": "Managedfile",
+	"version": "1.0",
+	"author": "Yong Li",
+	"license": "MIT",
+	"description": "Managedfile"
+}

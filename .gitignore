@@ -1,0 +1,14 @@
+# SVN
+.svn/
+**/.svn/
+
+# Eclipse based IDE
+.settings/
+.project
+*.launch
+.buildpath
+.vscode/
+
+# Jenkin deployment
+www/manifest
+www/protected/composer.phar

@@ -1,0 +1,9 @@
+{
+	"name": "Auditlog",
+	"slug": "auditlog",
+	"namespace": "Auditlog",
+	"version": "1.0",
+	"author": "Yong Li",
+	"license": "MIT",
+	"description": "Auditlog"
+}

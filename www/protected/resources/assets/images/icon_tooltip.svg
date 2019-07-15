@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="25px" viewBox="0 0 26 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_tooltip</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Tooltip" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_tooltip">
+            <circle id="Oval-2" fill="#958BAF" cx="13" cy="12.5" r="12.5"></circle>
+            <path d="M11.743,14.63 C11.743,11.077 14.137,10.716 14.137,9.12 C14.137,8.493 13.662,8.056 12.75,8.056 C11.819,8.056 11.135,8.417 10.356,8.911 L9.311,6.84 C10.527,6.004 11.61,5.586 12.902,5.586 C15.543,5.586 16.778,7.41 16.778,8.892 C16.778,11.552 14.327,11.647 14.327,14.63 L11.743,14.63 Z M11.382,17.556 C11.382,16.587 12.161,15.922 13.035,15.922 C13.89,15.922 14.745,16.587 14.745,17.556 C14.745,18.468 13.928,19.228 13.035,19.228 C12.104,19.228 11.382,18.468 11.382,17.556 Z" id="?" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

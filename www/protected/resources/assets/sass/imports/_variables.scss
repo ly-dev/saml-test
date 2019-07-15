@@ -1,0 +1,33 @@
+/* variables */
+
+$icon-font-path:                        "../fonts/" !default;
+
+/* Small devices (tablets, 768px and up) */
+//@media (min-width: $screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+//@media (min-width: $screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+//@media (min-width: $screen-lg-min) { ... }
+
+/*
+COLORS:
+-------------------------------------*/
+
+$grey:              #ACABAD; /* unselected states */
+$light-grey:        #D2D0D5; /* border colors */
+$background-grey:   #F9F9F9; /* only really used for page background */
+$selected-grey:     #EEEEEE; /* only really used for selected states on selectors */
+$banner-red:        #AD073A;
+
+$dark-blue:         #012147; /* main typography color */
+$pastel:            #E8DFEF;
+$turquoise:         #3FCEB5; /* main buttons */
+$purple:            #707EF4; /* secondary buttons */
+$blue-separator:    #3B5171;
+$mid-blue:          #023A7B;
+
+$app-icon-width:    32px;
+$app-icon-height:   32px;
+

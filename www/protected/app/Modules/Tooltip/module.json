@@ -1,0 +1,9 @@
+{
+	"name": "Tooltip",
+	"slug": "tooltip",
+	"namespace": "Tooltip",
+	"version": "1.0",
+	"author": "Yong Li",
+	"license": "MIT",
+	"description": "Tooltip"
+}
