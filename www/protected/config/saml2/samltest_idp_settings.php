@@ -97,6 +97,7 @@ return $settings = array(
      */
     // Security settings
     'security' => array(
+        'wantAssertionsEncrypted' => true,
 
         /** signatures and encryptions offered */
 
